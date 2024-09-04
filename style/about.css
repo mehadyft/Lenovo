@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+nav img {
+  width: 10%;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  margin-left: auto;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #131313;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff453f;
+}
+.hero-section {
+  color: #fff;
+  margin-top: 20px;
+  background-image: url("../images/about-bg.jpg");
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+}
+.hero-section h1 {
+  padding-top: 200px;
+  margin-left: 150px;
+  font-size: 70px;
+  font-weight: 500;
+  font-family: "Playwrite CU", cursive;
+}
+.hero-section h3 {
+  font-size: 37px;
+  font-weight: 400;
+  margin-left: 150px;
+}
+.gazat .container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 50px;
+  margin-bottom: 100px;
+}
+.gazat .container .img img {
+  border-radius: 30px;
+}
+.titel {
+  color: rgb(122, 18, 104);
+  font-size: 21px;
+}
+.subject {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.gazat .container .text a {
+  color: rgb(41, 78, 149);
+  text-decoration: none;
+  font-weight: bold;
+}
+.gazat .container .text a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 786px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    margin-right: 135px;
+  }
+  nav img {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+  .gazat .container {
+    flex-direction: column;
+  }
+  .gazat .container .img img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 786px) and (max-width: 986px) {
+  nav {
+    flex-direction: column;
+  }
+  nav img {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  nav ul {
+    margin-right: 135px;
+  }
+  nav ul li a {
+    font-size: 25px;
+  }
+  .gazat .container {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 986px) and (max-width: 1024px) {
+  nav {
+    flex-direction: column;
+  }
+  nav img {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  nav ul {
+    margin-right: 180px;
+  }
+  nav ul li a {
+    font-size: 35px;
+  }
+  .gazat .container {
+    flex-direction: column;
+  }
+}
