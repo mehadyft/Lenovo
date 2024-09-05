@@ -36,7 +36,7 @@ nav ul li a:hover {
 .hero-section {
   text-align: center;
   margin-top: 20px;
-  background-image: url("../images/wallpaper.jpg");
+  background-image: url("../images/home-html-bg.jpg");
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -88,6 +88,16 @@ nav ul li a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 10px 300px;
+  grid-column-gap: 40px;
+  grid-row-gap: 10px;
+}
+img {
+  transition: 0.3s;
+  cursor: pointer;
+}
+img:hover {
+  transform: scale(1.2);
+
 }
 .grid-container img {
   width: 100%;
