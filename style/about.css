@@ -42,6 +42,25 @@ nav ul li a:hover {
   background-position: center;
   background-size: cover;
 }
+.cta-btn {
+  text-decoration: none;
+  margin-left: 200px;
+  font-size: 20px;
+  background-color: #ff453f;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 25px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  transition: 0.5s ease;
+}
+.cta-btn:hover {
+  background: #ff3300c2;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 0px;
+}
 .hero-section h1 {
   padding-top: 200px;
   margin-left: 150px;
@@ -53,6 +72,7 @@ nav ul li a:hover {
   font-size: 37px;
   font-weight: 400;
   margin-left: 150px;
+  margin-bottom: 50px;
 }
 .gazat .container {
   display: flex;
@@ -80,6 +100,60 @@ nav ul li a:hover {
 .gazat .container .text a:hover {
   text-decoration: underline;
 }
+footer p {
+  text-align: center;
+  padding: 20px 0;
+}
+.social {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 250px;
+  align-items: center;
+  background: #fff8f3;
+}
+footer ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 25px;
+}
+.copy-right {
+  font-size: 25px;
+  color: #fff;
+  background-color: #121212;
+}
+footer span {
+  font-size: 20px;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-instagram {
+  background-image: linear-gradient(
+    45deg,
+    #ffdf9e,
+    #ffc273,
+    #e56969,
+    #c1558b,
+    #8a49a1
+  );
+  padding: 10px 10px;
+  color: #fff;
+  border-radius: 50%;
+}
+.fa-twitter {
+  color: #1da1f2;
+}
+.fa-linkedin-in {
+  color: #0077b5;
+}
+.fa-youtube {
+  color: #ff0000;
+}
 @media screen and (max-width: 786px) {
   nav {
     flex-direction: column;
@@ -94,11 +168,19 @@ nav ul li a:hover {
   nav ul li a {
     font-size: 16px;
   }
+  .hero-section {
+    height: 100vh;
+    text-align: start;
+  }
   .gazat .container {
     flex-direction: column;
   }
   .gazat .container .img img {
     width: 100%;
+  }
+  .social {
+    flex-direction: column;
+    padding: 20px 50px;
   }
 }
 @media screen and (min-width: 786px) and (max-width: 986px) {
@@ -118,6 +200,10 @@ nav ul li a:hover {
   .gazat .container {
     flex-direction: column;
   }
+  .social {
+    flex-direction: column;
+    padding: 20px 50px;
+  }
 }
 @media screen and (min-width: 986px) and (max-width: 1024px) {
   nav {
@@ -135,5 +221,19 @@ nav ul li a:hover {
   }
   .gazat .container {
     flex-direction: column;
+  }
+  .cta-btn {
+    text-decoration: none;
+    font-size: 30px;
+    background-color: #ff453f;
+    color: #fff;
+    padding: 20px 35px;
+    border-radius: 25px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .social {
+    flex-direction: column;
+    padding: 20px 50px;
   }
 }
