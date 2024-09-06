@@ -40,14 +40,46 @@ nav ul li a:hover {
   height: 100vh;
   background-repeat: no-repeat;
 }
-from
-.buy-now .container form #input {
-  display: flex;
+form {
+  padding-top: 15%;
+  margin-left: 32%;
   flex-direction: column;
-  justify-content: center;
-  margin-left: 650px;
-  width: 500px;
 }
+.buy-now .container form,
+#input {
+  display: flex;
+  justify-content: center;
+  width: 450px;
+  margin-left: 170px;
+  flex-direction: column;
+}
+
+#input {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+#btn {
+  margin-left: 332px;
+  margin-top: 40px;
+  display: none;
+}
+.cta-btn {
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: #ff453f;
+  border: 2px solid #ff453f;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.3s ease;
+  margin-left: 300px;
+  margin-top: 20px;
+}
+.cta-btn:hover {
+  border: 2px solid #131313;
+  background: #ff453f60;
+}
+
 @media screen and (max-width: 767px) {
   nav {
     flex-direction: column;
@@ -62,6 +94,29 @@ from
   }
   nav ul li a {
     font-size: 16px;
+  }
+
+  .buy-now .container form {
+    margin-left: -20px;
+  }
+  .btn {
+    display: none;
+  }
+  .buy-now .container form,
+  #input {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 97%;
+    padding: 15px 25px;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  #input {
+    margin-top: 10px;
+    margin-left: -5px;
+    padding: 10px 20px;
+    width: 500px;
   }
 }
 @media screen and (min-width: 786px) and (max-width: 986px) {
@@ -79,6 +134,23 @@ from
   nav ul li a {
     font-size: 25px;
   }
+  .cta-btn {
+    margin-left: 75px;
+  }
+  .buy-now .container form {
+    margin-left: -20px;
+  }
+  .btn {
+    display: none;
+  }
+  .buy-now .container form,
+  #input {
+    margin-top: 50px;
+    max-width: 700px;
+    padding: 15px 25px;
+    margin-left: 25px;
+    font-size: 18px;
+  }
 }
 @media screen and (min-width: 986px) and (max-width: 1024px) {
   nav {
@@ -95,6 +167,25 @@ from
   nav ul li a {
     font-size: 35px;
   }
+  .buy-now .container form {
+    margin-left: -20px;
+  }
+  .btn {
+    display: none;
+  }
+  .buy-now .container form,
+  #input {
+    margin-top: 50px;
+    max-width: 700px;
+    padding: 25px 35px;
+    margin-left: 25px;
+    font-size: 28px;
+  }
+  .cta-btn {
+    padding: 25px 35px;
+    margin-left: 20px;
+    font-size: 25px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   nav {
@@ -107,5 +198,31 @@ from
   nav ul {
     gap: 40px;
     margin-left: -9px;
+  }
+}
+@media screen and (max-width: 344px) {
+  .cta-btn {
+    margin-left: -1px;
+  }
+}
+@media screen and (max-width: 415px) {
+  .cta-btn {
+    margin-left: -1px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  nav img {
+    width: 20%;
+  }
+  #input {
+    margin-top: 10px;
+    margin-left: -20px;
+    padding: 15px 20px;
+    width: 500px;
+    font-size: 20px;
+  }
+  .cta-btn {
+    font-size: 20px;
+    padding: 15px 20px;
   }
 }
