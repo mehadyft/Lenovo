@@ -195,6 +195,11 @@ footer span {
     grid-template-columns: repeat(2, 1fr);
     padding: 50px 10px;
   }
+
+  .social {
+    flex-direction: column;
+    padding: 20px 50px;
+  }
 }
 @media screen and (min-width: 786px) and (max-width: 986px) {
   nav {
@@ -231,6 +236,10 @@ footer span {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 50px 10px;
+  }
+  .social {
+    flex-direction: column;
+    padding: 20px 50px;
   }
 }
 @media screen and (min-width: 986px) and (max-width: 1024px) {
@@ -279,5 +288,9 @@ footer span {
     border-radius: 25px;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
+  }
+  .social {
+    flex-direction: column;
+    padding: 20px 50px;
   }
 }
