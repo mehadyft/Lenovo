@@ -175,7 +175,10 @@ footer span {
   }
   .section-titel {
     padding-top: 100px;
-    font-size: 50px;
+    font-size: 40px;
+  }
+  .section-description {
+    font-size: 16px;
   }
   .laptop-1 {
     margin-top: 50px;
@@ -185,7 +188,7 @@ footer span {
     padding: 20px;
   }
   .laptop-1 .container .image img {
-    width: 400px;
+    width: 350px;
   }
   .section-description {
     margin-bottom: 50px;
