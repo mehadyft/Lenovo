@@ -161,7 +161,8 @@ footer span {
     flex-direction: column;
   }
   nav ul {
-    margin-right: 135px;
+    gap: 40px;
+    margin-left: -9px;
   }
   nav img {
     width: 50%;
@@ -170,6 +171,23 @@ footer span {
   nav ul li a {
     font-size: 16px;
   }
+  .hero-section h1 {
+    margin-left: -1px;
+    font-size: 35px;
+    font-family: "poppins", sans-serif;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .hero-section h3 {
+    font-size: 20px;
+    margin-left: -1px;
+    margin-left: 10px;
+  }
+  .cta-btn {
+    margin-left: -1px;
+    margin-left: 20px;
+  }
+
   .hero-section {
     height: 100vh;
     text-align: start;
@@ -194,7 +212,8 @@ footer span {
     margin-bottom: 50px;
   }
   nav ul {
-    margin-right: 135px;
+    margin-left: -9px;
+    gap: 40px;
   }
   nav ul li a {
     font-size: 25px;
@@ -216,7 +235,8 @@ footer span {
     margin-bottom: 50px;
   }
   nav ul {
-    margin-right: 180px;
+    margin-left: -9px;
+    gap: 40px;
   }
   nav ul li a {
     font-size: 35px;

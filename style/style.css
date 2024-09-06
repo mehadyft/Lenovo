@@ -163,7 +163,8 @@ footer span {
     flex-direction: column;
   }
   nav ul {
-    margin-right: 135px;
+    gap: 40px;
+    margin-left: -9px;
   }
   nav img {
     width: 50%;
