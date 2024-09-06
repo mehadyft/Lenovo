@@ -38,6 +38,7 @@ nav ul li a:hover {
   color: #fff;
   margin-top: 20px;
   background-image: url("../images/about-html-bg.jpg");
+  background-repeat: no-repeat;
   height: 800px;
   background-position: center;
   background-size: cover;
@@ -47,6 +48,7 @@ nav ul li a:hover {
   margin-left: 200px;
   font-size: 20px;
   background-color: #ff453f;
+  border: 2px solid #ff453f;
   color: #fff;
   padding: 15px 25px;
   border-radius: 25px;

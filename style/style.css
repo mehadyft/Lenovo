@@ -37,6 +37,7 @@ nav ul li a:hover {
   text-align: center;
   margin-top: 20px;
   background-image: url("../images/home-html-bg.jpg");
+  background-repeat: no-repeat;
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -59,6 +60,7 @@ nav ul li a:hover {
   text-decoration: none;
   font-size: 20px;
   background-color: #ff453f;
+  border: 2px solid #ff453f;
   color: #fff;
   padding: 15px 25px;
   border-radius: 25px;
@@ -67,7 +69,8 @@ nav ul li a:hover {
   transition: 0.5s ease;
 }
 .cta-btn:hover {
-  background: #ff3300c2;
+  background: none;
+  border: 2px solid #fff;
   border-top-right-radius: 25px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 25px;
@@ -97,7 +100,6 @@ img {
 }
 img:hover {
   transform: scale(1.2);
-
 }
 .grid-container img {
   width: 100%;

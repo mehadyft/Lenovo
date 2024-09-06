@@ -33,3 +33,169 @@ nav ul li a {
 nav ul li a:hover {
   color: #ff453f;
 }
+.hero-section {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  background-image: url("../images/laptop-html-bg.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.hero-section h1 {
+  padding-top: 350px;
+  font-size: 70px;
+  font-weight: 500;
+}
+.section-description {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.see {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.cta-btn {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #ff453f;
+  border: 2px solid #ff453f;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 25px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  transition: 0.5s ease;
+}
+.cta-btn:hover {
+  background: none;
+  border: 2px solid #fff;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 0px;
+}
+section .container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.t {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #ff453f;
+  border: 2px solid #ff453f;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 25px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  transition: 0.5s ease;
+}
+.t:hover {
+  color: #000;
+  border: 2px solid #000;
+  background: none;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 0px;
+}
+.card-description {
+  margin-bottom: 20px;
+}
+.card {
+  width: 500px;
+  text-align: start;
+  margin-left: 20px;
+  background: #ddfef7;
+  padding: 50px;
+  border-radius: 25px;
+}
+.card .img img {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    gap: 40px;
+    margin-left: -9px;
+  }
+  nav img {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+  .hero-section h1 {
+    padding-top: -50px;
+    font-size: 50px;
+  }
+  section .container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+  }
+  .card {
+    width: 400px;
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 786px) and (max-width: 986px) {
+  nav {
+    flex-direction: column;
+  }
+  nav img {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  nav ul {
+    margin-right: 135px;
+  }
+  nav ul li a {
+    font-size: 25px;
+  }
+  .section-titel {
+    padding-top: 100px;
+    font-size: 50px;
+  }
+  section .container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+  }
+  .card {
+    width: 400px;
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 986px) and (max-width: 1024px) {
+  nav {
+    flex-direction: column;
+  }
+  nav img {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  nav ul {
+    margin-right: 180px;
+  }
+  nav ul li a {
+    font-size: 35px;
+  }
+  .section-titel {
+    padding-top: 100px;
+    font-size: 70px;
+  }
+  section .container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+  }
+  .card {
+    width: 450px;
+  }
+}
